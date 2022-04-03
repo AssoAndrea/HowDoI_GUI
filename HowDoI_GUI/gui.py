@@ -116,6 +116,7 @@ class GUI:
         self.window.show()
         self.app.exec_()
 
+    #used for read stylesheet
     def read_qss(self, path):
         f = open(path, "r")
         _style = f.read()
