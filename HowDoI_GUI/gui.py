@@ -121,12 +121,3 @@ class GUI:
         _style = f.read()
         f.close()
         return _style
-
-
-    # app = QApplication(sys.argv)
-    # app.setStyleSheet(qdarkstyle.load_stylesheet_pyside2())  # usign dark mode stylesheet
-    #
-    # window = MainWindow2()
-    # window.show()
-    #
-    # app.exec_()
