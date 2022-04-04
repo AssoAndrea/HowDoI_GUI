@@ -101,7 +101,7 @@ class MainWindow(QMainWindow):
 
     def setting_selected(self,i):
         if self.settings_dp.currentText() == "default":
-            return
+            self.plus_options = ""
         else:
             self.plus_options = self.settings_dp.currentText()
 
